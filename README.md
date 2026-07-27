@@ -1,19 +1,17 @@
-# 🏛️ LLM Konseyi (LLM Council TR) — Claude Code & AI Skill
+# 🏛️ Yapay Zeka Konseyi (LLM Konseyi TR)
 
-> Claude veya Yapay Zekanızın ilk verdiği cevaba hemen güvenmeyin. Kararlarınızı, fikirlerinizi ve stratejilerinizi 5 farklı yapay zeka danışmanının tartıştığı, birbirini anonim olarak eleştirdiği ve 100 üzerinden skorladığı **LLM Konseyi** süzgecinden geçirin.
-
-[Andrej Karpathy'nin LLM Council](https://x.com/karpathy/status/1962263486196867115) metodolojisinden esinlenerek Claude Code ve Antigravity AI ortamları için Türkçe olarak geliştirilmiştir.
+> Yapay zekanızın ilk verdiği cevaba hemen güvenmeyin. Kararlarınızı, fikirlerinizi ve stratejilerinizi 5 farklı yapay zeka danışmanının tartıştığı, birbirini anonim olarak eleştirdiği ve 100 üzerinden skorladığı **Yapay Zeka Konseyi** süzgecinden geçirin.
 
 ---
 
 ## 🚀 Öne Çıkan Özellikler
 
-- 🕵️ **5 Farklı Danışman Rolü:** Contrarian (Aykırı Düşünen), First Principles (Temel İlkeler), Expansionist (Büyüme Odaklı), Outsider (Dış Göz), Executor (Uygulamacı).
-- 📊 **100 Üzerinden Mantıklılık Skoru (Council Score Gauge):** Fikrinizin ne kadar uygulanabilir olduğunu tek bakışta görün (0-100).
-- ⚖️ **Anonim Çapraz İnceleme (Peer-Review):** Danışmanlar birbirlerinin fikirlerini kimin söylediğini bilmeden objektif olarak eleştirir.
-- 🎯 **Risk & Getiri Matrisi:** Seçeneklerin risk, ROI ve zaman maliyetini kıyaslayan tablo.
-- 🌐 **Otomatik HTML Dashboard & Markdown Raporu:** Görsel HTML rapor otomatik oluşturulur ve tarayıcınızda açılır.
-- 📁 **Özel Klasör Kaydı:** Tüm kararlar otomatik olarak `Desktop/mahmut/Konsey Kararları` klasörüne arşivlenir.
+- 🕵️ **5 Farklı Danışman Rolü:** Aykırı Düşünen (Şüpheci), Temel İlkeler Danışmanı, Büyüme ve Fırsat Danışmanı, Dış Göz (Tarafsız), Uygulamacı (Eylemdar).
+- 📊 **100 Üzerinden Mantıklılık Skoru:** Fikrinizin ne kadar uygulanabilir olduğunu tek bakışta görün (0-100).
+- ⚖️ **Anonim Çapraz İnceleme:** Danışmanlar birbirlerinin fikirlerini kimin söylediğini bilmeden objektif olarak eleştirir.
+- 🎯 **Konsey Başkanı Kararı:** Uzlaşılan noktalar, ayrışılan detaylar ve kaçırılan kör noktalar sentezlenir.
+- 🌐 **Otomatik Görsel HTML Rapor:** Rapor otomatik oluşturulur ve tarayıcınızda açılır.
+- 📁 **Özel Klasör Arşivi:** Tüm kararlar otomatik olarak `Masaüstü/mahmut/Konsey Kararları` klasörüne arşivlenir.
 
 ---
 
@@ -24,25 +22,24 @@
 Terminal veya PowerShell açıp şu komutu çalıştırın:
 
 ```bash
-git clone https://github.com/KULLANICI_ADINIZ/llm-council-tr ~/.claude/skills/llm-council
+git clone https://github.com/KULLANICI_ADINIZ/llm-konseyi-tr ~/.claude/skills/llm-konseyi
 ```
 
 ### Yöntem 2 — Manuel Kurulum
 
-1. `~/.claude/skills/llm-council/` klasörünü oluşturun.
+1. `~/.claude/skills/llm-konseyi/` klasörünü oluşturun.
 2. `SKILL.md` ve `README.md` dosyalarını içine kopyalayın.
 
 ---
 
 ## 💬 Nasıl Kullanılır?
 
-Claude Code veya Antigravity AI içerisinde aşağıdaki tetikleyici ifadelerden birini yazarak sorunuzu sorun:
+Yapay zeka ortamında aşağıdaki tetikleyici ifadelerden birini yazarak sorunuzu sorun:
 
 - `konsey topla: [Sorunuz]`
 - `konseyi çalıştır: [Sorunuz]`
 - `bunu tartış: [Sorunuz]`
 - `bunu test et: [Sorunuz]`
-- `council this: [Sorunuz]`
 
 ### Örnek Kullanım:
 
@@ -52,14 +49,13 @@ Claude Code veya Antigravity AI içerisinde aşağıdaki tetikleyici ifadelerden
 
 ## 📈 Rapor Çıktıları
 
-Her konsey oturumu 2 dosya üretir ve varsayılan olarak `C:\Users\emirh\Desktop\mahmut\Konsey Kararları\` klasörüne kaydeder:
+Her oturum 2 dosya üretir ve varsayılan olarak `C:\Users\emirh\Desktop\mahmut\Konsey Kararları\` klasörüne kaydeder:
 
-1. `council-report-[timestamp].html` *(Görsel HTML Dashboard - Otomatik açılır)*
-2. `council-transcript-[timestamp].md` *(Tüm konuşmaların ve incelemelerin tam dökümü)*
+1. `konsey-raporu-[timestamp].html` *(Görsel HTML Raporu - Otomatik açılır)*
+2. `konsey-transkripti-[timestamp].md` *(Tüm konuşmaların ve incelemelerin tam dökümü)*
 
 ---
 
-## ⚖️ Lisans & Teşekkür
+## ⚖️ Lisans
 
-- Metodoloji: [Andrej Karpathy - LLM Council](https://x.com/karpathy/status/1962263486196867115)
-- Türkçe Geliştirme & Özelleştirme: Community / MIT License
+MIT Lisansı — Dilediğiniz gibi kullanabilir ve geliştirebilirsiniz.
